@@ -1,0 +1,144 @@
+{
+  "Маникюр": [
+    {
+      "id": 13697646,
+      "title": "Маникюр с покрытием к мастеру",
+      "price_min": 8000,
+      "price_max": 8000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697649,
+      "title": "Маникюр без покрытия",
+      "price_min": 6000,
+      "price_max": 6000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697651,
+      "title": "Маникюр с покрытие к Junior",
+      "price_min": 6000,
+      "price_max": 6000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697655,
+      "title": "Маникюр без покрытия к Junior мастеру",
+      "price_min": 4000,
+      "price_max": 4000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697949,
+      "title": "Мужской маникюр",
+      "price_min": 8000,
+      "price_max": 8000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697657,
+      "title": "Снятие гель покрытия",
+      "price_min": 2000,
+      "price_max": 2000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697658,
+      "title": "Снятие нарощенных ногтей",
+      "price_min": 3000,
+      "price_max": 3000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13698265,
+      "title": "Японский маникюр к мастеру",
+      "price_min": 7000,
+      "price_max": 7000,
+      "comment": "",
+      "seance_length": null
+    }
+  ],
+  "Smart-педикюр": [
+    {
+      "id": 13697669,
+      "title": "Smart педикюр с покрытием к мастеру",
+      "price_min": 10000,
+      "price_max": 10000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697670,
+      "title": "Smart педикюр без покрытия к мастеру",
+      "price_min": 8000,
+      "price_max": 8000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697673,
+      "title": "Smart педикюр с покрытием к Junior мастеру",
+      "price_min": 8000,
+      "price_max": 8000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697676,
+      "title": "Smart педикюр без покрытия к Junior мастеру",
+      "price_min": 6000,
+      "price_max": 6000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697679,
+      "title": "Снятие гель покрытия",
+      "price_min": 2000,
+      "price_max": 2000,
+      "comment": "",
+      "seance_length": null
+    }
+  ],
+  "Наращивание ногтей": [
+    {
+      "id": 13697662,
+      "title": "Наращивание ногтей к мастеру",
+      "price_min": 12000,
+      "price_max": 12000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697664,
+      "title": "Коррекция нарощенных ногтей к мастеру",
+      "price_min": 10000,
+      "price_max": 10000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697663,
+      "title": "Наращивание ногтей к Junior мастеру",
+      "price_min": 10000,
+      "price_max": 10000,
+      "comment": "",
+      "seance_length": null
+    },
+    {
+      "id": 13697665,
+      "title": "Коррекция нарощенных ногтей к Junior мастеру",
+      "price_min": 8000,
+      "price_max": 8000,
+      "comment": "",
+      "seance_length": null
+    }
+  ]
+}

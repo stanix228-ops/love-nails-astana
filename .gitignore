@@ -1,0 +1,16 @@
+# Python scripts
+*.py
+
+# Scraped raw data & logs
+*.json
+!services_formatted.json
+*.txt
+*.html
+!index.html
+
+# Screenshots & temporary visual checks
+*.png
+
+# Caches
+__pycache__/
+.system_generated/
