@@ -4,6 +4,9 @@
    ========================================================================== */
 
 :root {
+  color-scheme: light;
+  supported-color-schemes: light;
+  
   --bg-primary: #f7f6f2;
   --bg-dark: #171918;
   --bg-white: #ffffff;
@@ -34,11 +37,13 @@
 }
 
 html {
+  color-scheme: light;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
+  color-scheme: light;
   font-family: var(--font-sans);
   background-color: var(--bg-primary);
   color: var(--text-main);
@@ -1720,3 +1725,160 @@ button {
     justify-content: space-between;
   }
 }
+
+/* ================= PREVENT AUTO DARK MODE INVERSION ON MOBILE ================= */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light !important;
+    supported-color-schemes: light !important;
+  }
+
+  html, body {
+    color-scheme: light !important;
+    background-color: #f7f6f2 !important;
+    color: #171918 !important;
+  }
+
+  .site-header {
+    background-color: rgba(247, 246, 242, 0.94) !important;
+    border-bottom: 1px solid rgba(23, 25, 24, 0.08) !important;
+  }
+
+  .site-header.scrolled {
+    background-color: rgba(247, 246, 242, 0.98) !important;
+  }
+
+  .nav-link,
+  .nav-booking-btn,
+  .brand-logo-text {
+    color: #171918 !important;
+  }
+
+  .brand-logo-sub {
+    color: #777777 !important;
+  }
+
+  .mobile-toggle span {
+    background-color: #000000 !important;
+  }
+
+  .mobile-drawer {
+    background-color: #f7f6f2 !important;
+  }
+
+  .mobile-nav-links a {
+    color: #171918 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .hero-section {
+    background-color: #f7f6f2 !important;
+  }
+
+  .hero-city-tag {
+    background-color: rgba(23, 25, 24, 0.05) !important;
+    color: #171918 !important;
+  }
+
+  .hero-title,
+  .hero-services-line,
+  .hero-subtitle,
+  .action-link {
+    color: #171918 !important;
+  }
+
+  .services-section,
+  .works-section,
+  .trust-ribbon-section,
+  .contacts-section,
+  .bottom-ribbon-section {
+    background-color: #ffffff !important;
+  }
+
+  .section-title,
+  .service-name,
+  .contact-card-value,
+  .contact-address-text,
+  .contact-hours-text,
+  .footer-logo-title {
+    color: #171918 !important;
+  }
+
+  .service-desc,
+  .trust-desc,
+  .contact-card-label {
+    color: #5e605f !important;
+  }
+
+  .specialists-section {
+    background-color: #f7f6f2 !important;
+  }
+
+  .master-card {
+    background-color: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .master-name {
+    color: #171918 !important;
+  }
+
+  .master-role {
+    color: #5e605f !important;
+  }
+
+  .master-book-btn {
+    color: #171918 !important;
+  }
+
+  .modal-dialog {
+    background-color: #ffffff !important;
+    color: #171918 !important;
+  }
+
+  .modal-title {
+    color: #171918 !important;
+  }
+
+  .modal-close-btn {
+    color: #171918 !important;
+  }
+
+  .price-tab-btn {
+    background-color: #f7f6f2 !important;
+    color: #171918 !important;
+  }
+
+  .price-tab-btn.active {
+    background-color: #171918 !important;
+    color: #ffffff !important;
+  }
+
+  .price-search-input {
+    background-color: #f7f6f2 !important;
+    color: #171918 !important;
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  }
+
+  .price-item-row {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .price-item-title {
+    color: #171918 !important;
+  }
+
+  .price-item-cat {
+    color: #777777 !important;
+  }
+
+  .price-item-cost {
+    color: #171918 !important;
+  }
+
+  .price-item-book-btn {
+    background-color: #171918 !important;
+    color: #ffffff !important;
+  }
+}
+
